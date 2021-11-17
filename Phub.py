@@ -28,7 +28,7 @@ db = {}
 
 # Let's Go----------------------------------------------------------------------
 @bot1.on_message(
-    filters.command(["search","search@Kakashi_s_bot"]) & ~filters.edited & ~filters.command("help") & ~filters.command("start") & ~filters.command("repo")
+    filters.command(["search"]) & ~filters.edited & ~filters.command("help") & ~filters.command("start") & ~filters.command("repo")
     )
 async def sarch(_,message):
     m = await message.reply_text("finding your desirable video...")
@@ -214,6 +214,7 @@ def callback_query_delete(bot, query):
 
 
 
+# SCREENSHOT BUTTON ---------------------------------------
 
 @bot1.on_callback_query(filters.regex("ss"))
 async def callback_query_delete(bot, query):
@@ -226,7 +227,7 @@ async def callback_query_delete(bot, query):
 
 
 
-
+# DOWNLOAD BUTTON ------------------------------------------
 
 import requests, os, validators
 import youtube_dl
@@ -234,8 +235,6 @@ from pyrogram import Client, filters
 from pyrogram.types import  InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 from pyrogram.types import  InlineKeyboardMarkup, InlineKeyboardButton
-
-
 
 
 
