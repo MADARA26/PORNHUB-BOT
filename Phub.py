@@ -9,7 +9,6 @@ from config import OWNER, BOT_NAME, REPO_BOT, ARQ_API_KEY, UPDATES_CHANNEL, TOKE
 
 
 #------
-
 # Config Check-----------------------------------------------------------------
 
 # ARQ API and Bot Initialize---------------------------------------------------
