@@ -9,7 +9,7 @@ warning !, this is a telegram bot that contains adult content.
 Simply way to deploy this bot, go deploy on heroku.
 
 <b>
-<a href="https://heroku.com/deploy?template=https://github.com/noobmasterhu/PornHub-bot"><img src="https://img.shields.io/badge/DEPLOY ON HEROKU-Canary?style=badge&logo=heroku"width="310" height="50"/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/noobmasterhu/PornHub-bot"><img src="https://img.shields.io/badge/DEPLOY ON HEROKU-9cf?style=for-the-badge&logo=heroku"width="310" height="50"/></a>
 </b>
 
 ### FIND US ON TELEGRAM !!
