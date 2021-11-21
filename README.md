@@ -14,9 +14,9 @@ Simply way to deploy this bot, go deploy on heroku.
 
 ### FIND US ON TELEGRAM !!
 
-<a href="https://t.me/The_Kakashi_Copy_Ninja"><img src="https://img.shields.io/badge/BOT OWNER-blue?style=for-the-badge&logo=Telegram" /></a>
-<a href="https://t.me/TheHatakeKakashi"><img src="https://img.shields.io/badge/CHANNEL-gold?style=for-the-badge&logo=Telegram" /></a>
-<a href="https://t.me/kakashihubot"><img src="https://img.shields.io/badge/EXAMPLE BOT-magenta?style=for-the-badge&logo=Telegram" /></a>
+<a href="https://t.me/The_Kakashi_Copy_Ninja"><img src="https://img.shields.io/badge/BOT OWNER-blue?style=flat-square&logo=Telegram" /></a>
+<a href="https://t.me/TheHatakeKakashi"><img src="https://img.shields.io/badge/CHANNEL-gold?style=flat-square&logo=Telegram" /></a>
+<a href="https://t.me/kakashihubot"><img src="https://img.shields.io/badge/EXAMPLE BOT-magenta?style=flat-square&logo=Telegram" /></a>
 
 
 ### COMMAND FOR BOT [@PornHubBot](https://t.me/kakashihubot)
