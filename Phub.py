@@ -270,6 +270,10 @@ def webpage(c, m): # c Mean Client | m Mean Message
     data = db[m.message.chat.id]
     curr_page = int(data['curr_page'])
     cur_page = curr_page-1
+
+    vidtitle = data['result'][curr_page].title
+    vidurl = data['result'][curr_page].url
+    
     url1 = res = data['result'][curr_page].url
     if validators.url(url1):
         sample_url = "https://da.gd/s?url={}".format(url1)
@@ -302,12 +306,12 @@ def webpage(c, m): # c Mean Client | m Mean Message
         thumb = open(thumb,"rb")
         path = open(path, 'rb')
         #c.send_photo(chat_id,thumb,caption=' ') #Edit it and add your Bot ID :)
-        c.send_video(chat_id, path, thumb=thumb, caption=' ',
-                    file_name=" ", supports_streaming=True, progress=progress_for_pyrogram) #Edit it and add your Bot ID :)
+        c.send_video(chat_id, path, thumb=thumb, caption=f'[{vidtitle}]({vidurl})',
+                    file_name=" ", supports_streaming=True, progress=progress) #Edit it and add your Bot ID :)
         upmsg.delete()
     else:
         path = open(path, 'rb')
-        c.send_video(chat_id, path, caption=' ',
+        c.send_video(chat_id, path, caption=f'[{vidtitle}]({vidurl})',
                     file_name=" ", supports_streaming=True, progress=progress)
         upmsg.delete()
 
